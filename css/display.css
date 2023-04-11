@@ -1,0 +1,15 @@
+.wheather-display {
+  text-align: center;
+
+  background-color: rgb(255, 255, 255);
+  height: 20rem;
+  width: 15rem;
+  border: 2px solid black;
+  border-radius: 16px;
+  padding-top: 12px;
+}
+
+span {
+  font-size: 2rem;
+  font-weight: bold;
+}
