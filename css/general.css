@@ -5,18 +5,8 @@
 }
 
 body {
-  height: 100vh;
+  /* height: 100vh; */
   background: linear-gradient(rgb(167, 4, 167), rgb(37, 0, 48));
   font-size: 1rem;
   font-family: Roboto, Arial;
 }
-
-.weather-container-fluid {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  padding-top: 2rem;
-}
-

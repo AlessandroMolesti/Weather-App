@@ -12,26 +12,37 @@
   <link rel="stylesheet" type="text/css" href="css/general.css" /> 
   <link rel="stylesheet" type="text/css" href="css/display.css" /> 
   <link rel="stylesheet" type="text/css" href="css/search-bar.css" /> 
+  <link rel="stylesheet" type="text/css" href="css/container.css" /> 
+  <link rel="stylesheet" type="text/css" href="css/pages.css" /> 
 
   <title>Weather App</title>
 </head>
 <body>
+  
+  <div class="main-container">
+    <section class="home-page">
+      <div>
+        home page
+      </div>
+     
+    </section>
 
-  <div class="weather-container-fluid">
-    <div class="wheather-search">
-      <input type="text" placeholder="Enter a city name" id="search-bar">
-      <input type="submit" value="submit" id="add">
-    </div>
+    <section class="weather-container-fluid">
+      <div class="wheather-search">
+        <input type="text" placeholder="Enter a city name" id="search-bar">
+        <input type="submit" value="submit" id="add">
+      </div>
 
-    <div class="wheather-display">
-      <!-- <div class="icon" id="">---</div> -->
-      <div class="temp" id="temp">-°C</div>
-      <div class="location" id="location">---</div>
-      <div class="summary" id="description">----</div>
-      <div class="wind" id="wind">---</div>
-    </div>
+      <div class="wheather-display">
+        <!-- <div class="icon" id="">---</div> -->
+        <div class="temp" id="temp">-°C</div>
+        <div class="location" id="location">---</div>
+        <div class="summary" id="description">----</div>
+        <div class="wind" id="wind">---</div>
+      </div>
+    </section>
   </div>
-  <!--Linking the javascript code-->
+
   <script src="script.js"></script>
   
 </body>

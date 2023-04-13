@@ -1,0 +1,16 @@
+/* .home-page {
+} */
+
+.weather-container-fluid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.home-page,
+.weather-container-fluid {
+  height: 100vh;
+  scroll-snap-align: start;
+}
