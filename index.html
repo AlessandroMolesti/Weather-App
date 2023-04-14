@@ -13,7 +13,7 @@
   <link rel="stylesheet" type="text/css" href="css/display.css" /> 
   <link rel="stylesheet" type="text/css" href="css/search-bar.css" /> 
   <link rel="stylesheet" type="text/css" href="css/container.css" /> 
-  <link rel="stylesheet" type="text/css" href="css/pages.css" /> 
+  <link rel="stylesheet" type="text/css" href="css/home-page.css" /> 
 
   <title>Weather App</title>
 </head>
@@ -21,8 +21,37 @@
   
   <div class="main-container">
     <section class="home-page">
-      <div>
-        home page
+      <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'Credits')">Credits</button>
+        <button class="tablinks" onclick="openCity(event, 'LeaderBoard')">LeaderBoard</button>
+        <button class="tablinks" onclick="openCity(event, 'Play')" id="defaultOpen">Play</button>
+        <button class="tablinks" onclick="openCity(event, 'How-to-play')">How to Play</button>
+        <button class="tablinks" onclick="openCity(event, 'Settings')">Settings</button>
+      </div>
+
+      <div id="Settings" class="tabcontent">
+        <h3>Settings</h3>
+        <p>Settings</p>
+      </div>
+      
+      <div id="LeaderBoard" class="tabcontent">
+        <h3>LeaderBoard</h3>
+        <p>LeaderBoard</p>
+      </div>
+
+      <div id="Play" class="tabcontent">
+        <h3>Play</h3>
+        <p>Play</p>
+      </div>
+
+      <div id="Credits" class="tabcontent">
+        <h3>Credits</h3>
+        <p>Credits</p>
+      </div>
+
+      <div id="How-to-play" class="tabcontent">
+        <h3>How-to-play</h3>
+        <p>How-to-play</p>
       </div>
      
     </section>
